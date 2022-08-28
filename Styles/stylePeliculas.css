@@ -3,6 +3,10 @@ header{
     height: 75px;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
+}
+.movieTitle{
+    margin-left: 100px;
 }
 .nav-ul{
     height: 75px;
@@ -16,4 +20,45 @@ header{
 .nav-ul a{
     margin-right: 20px;
     text-decoration: none;
+}
+.hrHeaderMain{
+    color: grey;
+    width: 90%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imageMovie{
+    margin-left: 100px;
+}
+.descriptionMovie{
+    font-size: large;
+    color: darkslategray;
+}
+.reviewsMovie{
+    margin-right: 100px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+}
+.reviewPage{
+    text-decoration: none;
+}
+.reviewMeter{
+    height: 15px;
+    width: 100px;
+}
+.reviewMeter::-webkit-meter-bar{
+    background-color:#323232;
+}
+.hrMainFooter{
+    width: 90%;
+}
+footer{
+    text-align: center;
+    font-size: xx-small;
+    color: dimgrey;
 }
