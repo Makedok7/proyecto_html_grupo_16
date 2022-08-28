@@ -4,6 +4,9 @@ body{
     font-size:15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.body-img{
+    width: 100%;
+}
 header{
     display: flex;
     height: 75px;
@@ -28,4 +31,18 @@ header{
 .nav-ul a{
     margin-right: 20px;
     text-decoration: none;
+}
+.banner{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.bienvenido{
+    height: 150px;
+    flex-direction: column;
+    background-color: aqua;
+    font-size: large;
+    text-align: center;
 }
