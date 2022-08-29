@@ -9,9 +9,7 @@
     </head>
     <body>
         <header>
-            <section class="movieTitle">
-                <h1>Pelicula1</h1>
-            </section>
+            <h1 class="pageTitle">Cartelera</h1>
             <nav>
                 <ul class="nav-ul">
                     <li>
@@ -28,33 +26,69 @@
                     </li>
                 </ul>
             </nav>
-
         </header>
         <hr class="hrHeaderMain">
         <main>
-            <img src="" alt="imageMovie" class="imageMovie">
-            <section class="descriptionMovie">
-                <h1>Sinopsis</h1>
-                <p>
-                    descripcion
-                </p>
-            </section>
-            <section class="reviewsMovie">
-                <ul class="reviews-ul">
-                    <li class="review">
+            <div class="boxTittleDuration">
+                <h2 class="titleMovie">Pelicula1</h2>
+                <time class="durationMovie">2h:30m</time>
+            </div>
+
+            <div class="contentMovie">
+                <img src="" alt="imageMovie" class="imageMovie">
+
+                <section class="descriptionMovie">
+                    <div class="synopsisDescription">
+                        <h1>Sinopsis</h1>
+                        <p>
+                            descripcion
+                        </p>
+                    </div>
+            
+                    <div class="boxActorsTags">
+                        <section class="actorsMovie">
+                            <li>
+                                actor1
+                            </li>
+                            <li>
+                                actor2
+                            </li>
+                            <li>
+                                actor3
+                            </li>
+                        </section>
+                         <section class="tagsMovie">
+                            <li>
+                                etiqueta1
+                            </li>
+                            <li>
+                                etiqueta1
+                            </li>
+                            <li>
+                                etiqueta1
+                            </li>
+                        </section>
+                    </div>
+                </section>
+                
+                <section class="reviewsMovie">
+                    <li>
                         <a href="" class="reviewPage">Metacritic-7.0</a>
-                        <meter class="reviewMeter" value="7.0" min="0.0" low="3.33" high="6.66" max="10.0" optimum="8.0"></meter>
+                        <meter class="reviewMeter" min="0.0" low="3.0" high="7.0" max="10.0" optimum="8.0" value="7.0"></meter>
                     </li>
-                    <li class="review">
+                    <li>
                         <a href="" class="reviewPage">Metacritic-5.0</a>
-                        <meter class="reviewMeter" value="5.0" min="0.0" max="10.0" low="3.33" high="6.66" optimum="8.0"></meter>
-                    </li>
-                    <li class="review">
-                        <a href="" class="reviewPage">Metacritic-3.0</a>
-                        <meter class="reviewMeter" value="3.0" min="0.0" max="10.0" low="3.33" high="6.66" optimum="8.0"></meter>
-                    </li>
-                </ul>
-            </section>
+                        <meter class="reviewMeter" min="0.0" low="3.0" high="7.0" max="10.0" optimum="8.0" value="5.0"></meter>
+                    </li>     
+                    <li>
+                        <a href="" class="reviewPage">Metacritic-2.0</a>
+                        <meter class="reviewMeter" min="0.0" low="3.0" high="7.0" max="10.0" optimum="8.0" value="2.0"></meter>
+                    </li>                 
+                </section>
+
+            </div>
+
+            
         </main>
         <hr class="hrMainFooter">
         <footer>

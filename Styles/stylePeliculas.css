@@ -5,7 +5,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.movieTitle{
+.pageTitle{
     margin-left: 100px;
 }
 .nav-ul{
@@ -25,35 +25,95 @@ header{
     color: grey;
     width: 90%;
 }
+
 main{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+}
+.boxTittleDuration{
+    width: 90%;
+    display: flex;
+    background-color: chocolate;
+    align-items: baseline;
+}
+.titleMovie{
+    color: blue;
+}
+.durationMovie{
+    margin-left: 20px;
+    color: aquamarine;
+}
+.contentMovie{
+    height: 350px;
+    width: 90%;
+    display: flex;
+    background-color: cadetblue;
 }
 .imageMovie{
-    margin-left: 100px;
+    width: 15%;
+    background-color: beige;
 }
 .descriptionMovie{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: large;
-    color: darkslategray;
-}
-.reviewsMovie{
-    margin-right: 100px;
-}
-.review{
+    background-color: blue;
     display: flex;
     flex-direction: column;
 }
+.synopsisDescription{
+    background-color: aqua;
+    height: 80%;
+}
+.boxActorsTags{
+    height: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.actorsMovie{
+    width: 45%;
+    background-color: aqua;
+    display: flex;
+    
+}
+.tagsMovie{
+    width: 45%;
+    background-color: royalblue;
+    display: flex;
+}
+
+
+
+
+.reviewsMovie{
+    width: 15%;
+    list-style: none;
+}
+.reviewsMovie li{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .reviewPage{
     text-decoration: none;
+    background-color: aqua;
 }
 .reviewMeter{
-    height: 15px;
-    width: 100px;
+    background-color: bisque;
+    width: 100%;
 }
 .reviewMeter::-webkit-meter-bar{
     background-color:#323232;
 }
+
+
 .hrMainFooter{
     width: 90%;
 }
